@@ -20,7 +20,7 @@ function init() {
     index =0;
   }
     if (index === key.length){
-    alert("Please Help!");
+    window.alert("Please Help!");
     index = 0;
   }
 })
