@@ -15,8 +15,8 @@ function init() {
   let index = 0;
   body.document.addEventListener('keydown', function(e){
     if (e.which === key[index]){
-      index ++;
-    if (index === 9){
+      index++;
+    if (index === key.length){
       alert("Please Help!");
       index = 0;
     }
