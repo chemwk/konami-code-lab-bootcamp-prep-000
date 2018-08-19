@@ -16,12 +16,12 @@ function init() {
   document.body.addEventListener('keydown', function(e){
     if (e.which === key[index]){
       index++;
-    if (index === key.length){
-      alert("Please Help!");
-      index = 0;
-    }
   } else {
     index =0;
+  }
+    if (index === key.length){
+    alert("Please Help!");
+    index = 0;
   }
 })
 }
